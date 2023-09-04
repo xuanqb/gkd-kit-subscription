@@ -1,9 +1,9 @@
 {
-  "id": 0,
-  "name": "默认订阅",
-  "version": 53,
-  "author": "lisonge",
-  "supportUri": "https://github.com/gkd-kit/subscription",
+  "id": 99,
+  "name": "自用",
+  "version": 54,
+  "author": "xuanqb",
+  "supportUri": "https://github.com/xuanqb/gkd-kit-subscription",
   "apps": [
     {
       "id": "com.hpbr.bosszhipin",

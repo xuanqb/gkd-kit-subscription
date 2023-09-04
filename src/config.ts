@@ -23,10 +23,10 @@ for await (const tsFp of walk(process.cwd() + '/src/apps')) {
 // a,b,c,d
 apps.sort((a, b) => (a.id > b.id ? 1 : -1));
 const subsConfig: SubscriptionConfig = {
-  id: 0,
-  name: `默认订阅`,
-  author: `lisonge`,
-  supportUri: `https://github.com/gkd-kit/subscription`,
+  id: 99,
+  name: `自用`,
+  author: `xuanqb`,
+  supportUri: `https://github.com/xuanqb/gkd-kit-subscription`,
   apps,
 };
 
