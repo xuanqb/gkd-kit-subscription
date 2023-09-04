@@ -1,10 +1,25 @@
 {
   "id": 99,
   "name": "自用",
-  "version": 54,
+  "version": 55,
   "author": "xuanqb",
   "supportUri": "https://github.com/xuanqb/gkd-kit-subscription",
   "apps": [
+    {
+      "id": "com.douban.frodo",
+      "name": "豆瓣",
+      "groups": [
+        {
+          "key": 1,
+          "name": "首页推荐广告",
+          "activityIds": "com.douban.frodo.activity.SplashActivity",
+          "rules": [
+            "[id=\"com.douban.frodo:id/ad_header_new\"] > [id=\"com.douban.frodo:id/menu_item\"]",
+            "[text=\"不感兴趣\"]"
+          ]
+        }
+      ]
+    },
     {
       "id": "com.hpbr.bosszhipin",
       "name": "boss直聘",
