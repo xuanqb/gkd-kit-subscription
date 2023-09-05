@@ -2,7 +2,7 @@
 
 搞快点 APP 默认订阅规则
 
-当前订阅文件已适配 2 个 APP, 共有 2 规则组
+当前订阅文件已适配 3 个 APP, 共有 3 规则组
 
 如何编写订阅/贡献此项目 -> [CONTRIBUTING.md](./CONTRIBUTING.md)
 
@@ -15,3 +15,7 @@
 ### [com.hpbr.bosszhipin](/src/apps/com.hpbr.bosszhipin.ts) - boss直聘
 
 - 跳过不感兴趣
+
+### [com.tencent.mm](/src/apps/com.tencent.mm.ts) - 微信
+
+- 关闭朋友圈广告 - 朋友圈信息流广告,点击关闭按钮,确认关闭
