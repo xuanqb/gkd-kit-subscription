@@ -2,11 +2,15 @@
 
 搞快点 APP 默认订阅规则
 
-当前订阅文件已适配 3 个 APP, 共有 3 规则组
+当前订阅文件已适配 4 个 APP, 共有 4 规则组
 
 如何编写订阅/贡献此项目 -> [CONTRIBUTING.md](./CONTRIBUTING.md)
 
 ## 适配 APP 列表
+
+### [com.baidu.netdisk](/src/apps/com.baidu.netdisk.ts) - 百度网盘
+
+- 开屏广告
 
 ### [com.douban.frodo](/src/apps/com.douban.frodo.ts) - 豆瓣
 
