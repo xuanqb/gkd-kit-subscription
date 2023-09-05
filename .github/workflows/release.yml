@@ -32,11 +32,10 @@ jobs:
           git status
           git add .
           git commit -m "build: json,readme" -a
-          git push
         continue-on-error: true
-#      - name: Git push
-#        uses: ad-m/github-push-action@master
-#        if: ${{ steps.commit.outcome == 'success' }}
-#        with:
-#          github_token: ${{ secrets.GITHUB_TOKEN }}
-#          branch: ${{ github.ref }}
+      - name: Git push
+        uses: ad-m/github-push-action@master
+        if: ${{ steps.commit.outcome == 'success' }}
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          branch: ${{ github.ref }}
