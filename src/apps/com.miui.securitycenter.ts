@@ -9,6 +9,7 @@ export default defineAppConfig({
       name: '自动无障碍授权',
       activityIds: 'com.miui.permcenter.privacymanager.SpecialPermissionInterceptActivity',
       rules: [
+        '[id="com.miui.securitycenter:id/check_box"][checked=false]',
         'Button[text="确定"]',
       ],
     },
