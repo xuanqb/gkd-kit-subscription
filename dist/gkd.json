@@ -1,7 +1,7 @@
 {
   "id": 99,
   "name": "自用",
-  "version": 59,
+  "version": 60,
   "author": "xuanqb",
   "supportUri": "https://github.com/xuanqb/gkd-kit-subscription",
   "apps": [
@@ -73,6 +73,7 @@
           "name": "自动无障碍授权",
           "activityIds": "com.miui.permcenter.privacymanager.SpecialPermissionInterceptActivity",
           "rules": [
+            "[id=\"com.miui.securitycenter:id/check_box\"][checked=false]",
             "Button[text=\"确定\"]"
           ]
         }
