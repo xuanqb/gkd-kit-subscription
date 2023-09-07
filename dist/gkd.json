@@ -1,7 +1,7 @@
 {
   "id": 99,
   "name": "自用",
-  "version": 60,
+  "version": 61,
   "author": "xuanqb",
   "supportUri": "https://github.com/xuanqb/gkd-kit-subscription",
   "apps": [
@@ -47,6 +47,7 @@
           "name": "跳过不感兴趣",
           "activityIds": [
             "com.hpbr.bosszhipin.module.position.BossJobPagerActivity",
+            "com.hpbr.bosszhipin.module.map.activity.GeekRoute1004NewActivity",
             "com.monch.lbase.dialog.ProgressDialog",
             "com.hpbr.bosszhipin.module.main.activity.MainActivity"
           ],
