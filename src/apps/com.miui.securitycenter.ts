@@ -6,7 +6,7 @@ export default defineAppConfig({
   groups: [
     {
       key: 0,
-      name: '无障碍授权',
+      name: '自动无障碍授权',
       activityIds: 'com.miui.permcenter.privacymanager.SpecialPermissionInterceptActivity',
       rules: [
         'Button[text="确定"]',
