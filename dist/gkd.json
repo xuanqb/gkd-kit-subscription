@@ -1,7 +1,7 @@
 {
   "id": 99,
   "name": "自用",
-  "version": 61,
+  "version": 62,
   "author": "xuanqb",
   "supportUri": "https://github.com/xuanqb/gkd-kit-subscription",
   "apps": [
@@ -52,15 +52,10 @@
             "com.hpbr.bosszhipin.module.main.activity.MainActivity"
           ],
           "rules": [
-            {
-              "matches": "[id=\"com.hpbr.bosszhipin:id/tv_improper\"]"
-            },
-            {
-              "matches": "[text=\"BOSS活跃度低\"]"
-            },
-            {
-              "matches": "[text=\"面试过/入职过\"]"
-            }
+            "[id=\"com.hpbr.bosszhipin:id/tv_improper\"]",
+            "[text=\"BOSS活跃度低\"]",
+            "[text=\"面试过/入职过\"]",
+            "[id=\"com.hpbr.bosszhipin:id/boss_label_tv\"][text=\"本月活跃\"||text=\"近半年活跃\"] <n ViewGroup <n RecyclerView < FrameLayout < ViewPager < RelativeLayout > FrameLayout[id=\"com.hpbr.bosszhipin:id/title_action_view\"] >n [id=\"com.hpbr.bosszhipin:id/iv_another\"]"
           ]
         }
       ]
