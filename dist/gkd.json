@@ -1,7 +1,7 @@
 {
   "id": 99,
   "name": "自用",
-  "version": 58,
+  "version": 59,
   "author": "xuanqb",
   "supportUri": "https://github.com/xuanqb/gkd-kit-subscription",
   "apps": [
@@ -60,6 +60,20 @@
             {
               "matches": "[text=\"面试过/入职过\"]"
             }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "com.miui.securitycenter",
+      "name": "miui手机管家",
+      "groups": [
+        {
+          "key": 0,
+          "name": "自动无障碍授权",
+          "activityIds": "com.miui.permcenter.privacymanager.SpecialPermissionInterceptActivity",
+          "rules": [
+            "Button[text=\"确定\"]"
           ]
         }
       ]
