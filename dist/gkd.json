@@ -1,7 +1,7 @@
 {
   "id": 99,
   "name": "自用",
-  "version": 63,
+  "version": 64,
   "author": "xuanqb",
   "supportUri": "https://github.com/xuanqb/gkd-kit-subscription",
   "apps": [
@@ -20,6 +20,14 @@
             "TextView[text^=\"跳过\"][clickable=true]",
             "[id='com.byted.pangle:id/tt_splash_skip_btn']"
           ]
+        },
+        {
+          "key": 1,
+          "name": "首页vip年卡广告",
+          "activityIds": [
+            "com.baidu.netdisk.ui.MainActivity"
+          ],
+          "rules": "[name=\"android.widget.ImageView\"] < ViewGroup - ImageView"
         }
       ]
     },
@@ -55,7 +63,7 @@
             "[id=\"com.hpbr.bosszhipin:id/tv_improper\"]",
             "[text=\"BOSS活跃度低\"]",
             "[text=\"面试过/入职过\"]",
-            "[id=\"com.hpbr.bosszhipin:id/boss_label_tv\"][text=\"本周活跃\"||text=\"本月活跃\"||text=\"近半年活跃\"||text$=\"周内活跃\"||text$=\"月内活跃\"] <n ViewGroup <n RecyclerView < FrameLayout <n ViewPager < RelativeLayout > FrameLayout[id=\"com.hpbr.bosszhipin:id/title_action_view\"] >n [id=\"com.hpbr.bosszhipin:id/iv_another\"]"
+            "[id=\"com.hpbr.bosszhipin:id/boss_label_tv\"][text=\"本周活跃\"||text=\"本月活跃\"||text=\"近半年活跃\"||text=\"半年前活跃\"||text$=\"周内活跃\"||text$=\"月内活跃\"] <n ViewGroup <n RecyclerView < FrameLayout <n ViewPager < RelativeLayout > FrameLayout[id=\"com.hpbr.bosszhipin:id/title_action_view\"] >n [id=\"com.hpbr.bosszhipin:id/iv_another\"]"
           ]
         }
       ]
