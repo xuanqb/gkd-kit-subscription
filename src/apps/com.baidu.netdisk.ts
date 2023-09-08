@@ -14,7 +14,7 @@ export default defineAppConfig({
       ],
     },
     {
-      key: 0,
+      key: 1,
       name: '首页vip年卡广告',
       activityIds: ['com.baidu.netdisk.ui.MainActivity'],
       rules: '[name="android.widget.ImageView"] < ViewGroup - ImageView',
