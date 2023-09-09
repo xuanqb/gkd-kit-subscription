@@ -15,5 +15,13 @@ export default defineAppConfig({
         'ImageView - TextView[text="广告"][id!=null][index=0]',
       ],
     },
+    {
+      key: 1,
+      name: '查看原图',
+      activityIds: 'com.tencent.mm.ui.chatting.gallery.ImageGalleryUI',
+      rules: [
+        '[id="com.tencent.mm:id/bx5"][text^="查看原图"]',
+      ]
+    },
   ],
 });
