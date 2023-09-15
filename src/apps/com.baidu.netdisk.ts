@@ -17,7 +17,15 @@ export default defineAppConfig({
       key: 1,
       name: '首页vip年卡广告',
       activityIds: ['com.baidu.netdisk.ui.MainActivity'],
-      rules: '[name="android.widget.ImageView"] < ViewGroup - ImageView',
+      rules: [
+        '[name="android.widget.ImageView"] < ViewGroup - ImageView',
+      ]
+    },
+    {
+      key: 2,
+      name: '首页vip10广告',
+      activityIds: ['com.baidu.netdisk.business.guide.dialog.lifeproduct.LifeV10GuideDialog'],
+      rules: '[id="com.baidu.netdisk:id/iv_close"]',
     }
   ],
 });
