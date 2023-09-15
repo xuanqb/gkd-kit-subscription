@@ -4,10 +4,13 @@ on:
   push:
     branches:
       - 'custom'
+    paths:
+      - '.github/workflows/release.yml'
+      - 'src/**'
+      - 'package.json'
 
 jobs:
   release:
-    if: ${{ startsWith(github.event.head_commit.message, 'feat') || startsWith(github.event.head_commit.message, 'fix') }}
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v3
