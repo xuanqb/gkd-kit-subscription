@@ -1,32 +1,23 @@
 # @gkd-kit/subscription
 
-搞快点 APP 默认订阅规则
+GKD 默认订阅规则
 
-当前订阅文件已适配 5 个 APP, 共有 8 规则组
+当前订阅为 APP 自带, 无需手动添加, 当前版本: v79
+
+当前订阅文件已适配 5 个 APP, 共有 10 规则组
 
 如何编写订阅/贡献此项目 -> [CONTRIBUTING.md](./CONTRIBUTING.md)
 
 ## 适配 APP 列表
 
-### [com.baidu.netdisk](/src/apps/com.baidu.netdisk.ts) - 百度网盘
+| 名称 | ID | 规则组 |
+| - | - | - |
+| 百度网盘 | [com.baidu.netdisk](/docs/com.baidu.netdisk.md) | 3 |
+| boss直聘 | [com.hpbr.bosszhipin](/docs/com.hpbr.bosszhipin.md) | 3 |
+| 豆瓣 | [com.douban.frodo](/docs/com.douban.frodo.md) | 1 |
+| miui手机管家 | [com.miui.securitycenter](/docs/com.miui.securitycenter.md) | 1 |
+| 微信 | [com.tencent.mm](/docs/com.tencent.mm.md) | 2 |
 
-- 开屏广告
-- 首页vip年卡广告
-- 首页vip10广告
+## 感谢以下开发者的贡献
 
-### [com.douban.frodo](/src/apps/com.douban.frodo.ts) - 豆瓣
-
-- 首页推荐广告
-
-### [com.hpbr.bosszhipin](/src/apps/com.hpbr.bosszhipin.ts) - boss直聘
-
-- 跳过不感兴趣
-
-### [com.miui.securitycenter](/src/apps/com.miui.securitycenter.ts) - miui手机管家
-
-- 自动无障碍授权
-
-### [com.tencent.mm](/src/apps/com.tencent.mm.ts) - 微信
-
-- 关闭朋友圈广告 - 朋友圈信息流广告,点击关闭按钮,确认关闭
-- 查看原图
+![img](https://contrib.rocks/image?repo=gkd-kit/subscription&_v=79)
