@@ -16,6 +16,7 @@ export default defineAppConfig(
         ],
         actionDelay: 600,
         rules: [
+          '[text="前端"]',
           '[text="BOSS活跃度低"]',
           '[text="职位停招/招满"]',
           '[text="面试过/入职过"]'
