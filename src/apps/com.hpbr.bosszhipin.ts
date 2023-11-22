@@ -6,25 +6,8 @@ export default defineAppConfig(
     name: 'boss直聘',
     groups: [
       {
-        key: 1,
-        name: '跳过不感兴趣',
-        activityIds: [
-          'com.hpbr.bosszhipin.module.position.BossJobPagerActivity',
-          'com.hpbr.bosszhipin.module.map.activity.GeekRoute1004NewActivity',
-          'com.monch.lbase.dialog.ProgressDialog',
-          'com.hpbr.bosszhipin.module.main.activity.MainActivity'
-        ],
-        actionDelay: 600,
-        rules: [
-          '[text="前端"]',
-          '[text="BOSS活跃度低"]',
-          '[text="职位停招/招满"]',
-          '[text="面试过/入职过"]'
-        ],
-      },
-      {
         key: 2,
-        name: 'boss活跃度低',
+        name: '识别boss活跃度低',
         activityIds: [
           'com.hpbr.bosszhipin.module.position.BossJobPagerActivity',
           'com.hpbr.bosszhipin.module.map.activity.GeekRoute1004NewActivity',
@@ -46,6 +29,90 @@ export default defineAppConfig(
         ],
         rules: [
           '[id="com.hpbr.bosszhipin:id/tv_improper"]',
+        ],
+      },
+      {
+        key: 4,
+        name: '跳过BOSS活跃度低',
+        activityIds: [
+          'com.hpbr.bosszhipin.module.position.BossJobPagerActivity',
+          'com.hpbr.bosszhipin.module.map.activity.GeekRoute1004NewActivity',
+          'com.monch.lbase.dialog.ProgressDialog',
+          'com.hpbr.bosszhipin.module.main.activity.MainActivity'
+        ],
+        actionDelay: 600,
+        rules: [
+          '[text="BOSS活跃度低"]',
+        ],
+      },
+      {
+        key: 5,
+        name: '跳过职位停招',
+        activityIds: [
+          'com.hpbr.bosszhipin.module.position.BossJobPagerActivity',
+          'com.hpbr.bosszhipin.module.map.activity.GeekRoute1004NewActivity',
+          'com.monch.lbase.dialog.ProgressDialog',
+          'com.hpbr.bosszhipin.module.main.activity.MainActivity'
+        ],
+        actionDelay: 600,
+        rules: [
+          '[text="职位停招/招满"]',
+        ],
+      },
+      {
+        key: 6,
+        name: '跳过面试过',
+        activityIds: [
+          'com.hpbr.bosszhipin.module.position.BossJobPagerActivity',
+          'com.hpbr.bosszhipin.module.map.activity.GeekRoute1004NewActivity',
+          'com.monch.lbase.dialog.ProgressDialog',
+          'com.hpbr.bosszhipin.module.main.activity.MainActivity'
+        ],
+        actionDelay: 600,
+        rules: [
+          '[text="面试过/入职过"]'
+        ],
+      },
+      {
+        key: 7,
+        name: '跳过前端开发工程师',
+        activityIds: [
+          'com.hpbr.bosszhipin.module.position.BossJobPagerActivity',
+          'com.hpbr.bosszhipin.module.map.activity.GeekRoute1004NewActivity',
+          'com.monch.lbase.dialog.ProgressDialog',
+          'com.hpbr.bosszhipin.module.main.activity.MainActivity'
+        ],
+        actionDelay: 600,
+        rules: [
+          '[text="“前端开发工程师”职位"]',
+        ],
+      },
+      {
+        key: 8,
+        name: '跳过实施工程师',
+        activityIds: [
+          'com.hpbr.bosszhipin.module.position.BossJobPagerActivity',
+          'com.hpbr.bosszhipin.module.map.activity.GeekRoute1004NewActivity',
+          'com.monch.lbase.dialog.ProgressDialog',
+          'com.hpbr.bosszhipin.module.main.activity.MainActivity'
+        ],
+        actionDelay: 600,
+        rules: [
+          '[text="“实施工程师”职位"]'
+        ],
+      },
+      {
+        key: 9,
+        name: '跳过兼职',
+        activityIds: [
+          'com.hpbr.bosszhipin.module.position.BossJobPagerActivity',
+          'com.hpbr.bosszhipin.module.map.activity.GeekRoute1004NewActivity',
+          'com.monch.lbase.dialog.ProgressDialog',
+          'com.hpbr.bosszhipin.module.main.activity.MainActivity'
+        ],
+        actionDelay: 600,
+        rules: [
+          '[text="兼职"]'
         ],
       },
     ],
