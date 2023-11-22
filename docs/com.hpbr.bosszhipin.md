@@ -1,9 +1,19 @@
 # boss直聘
 
-存在 3 规则组 - [com.hpbr.bosszhipin](/src/apps/com.hpbr.bosszhipin.ts)
+存在 8 规则组 - [com.hpbr.bosszhipin](/src/apps/com.hpbr.bosszhipin.ts)
 
-## 跳过不感兴趣
-
-## boss活跃度低
+## 识别boss活跃度低
 
 ## 自动点击不合适
+
+## 跳过BOSS活跃度低
+
+## 跳过职位停招
+
+## 跳过面试过
+
+## 跳过前端开发工程师
+
+## 跳过实施工程师
+
+## 跳过兼职
