@@ -1,6 +1,6 @@
 # boss直聘
 
-存在 8 规则组 - [com.hpbr.bosszhipin](/src/apps/com.hpbr.bosszhipin.ts)
+存在 10 规则组 - [com.hpbr.bosszhipin](/src/apps/com.hpbr.bosszhipin.ts)
 
 ## 识别boss活跃度低
 
@@ -17,3 +17,7 @@
 ## 跳过实施工程师
 
 ## 跳过兼职
+
+## 跳过安卓工程师
+
+## 跳过数据开发岗位
