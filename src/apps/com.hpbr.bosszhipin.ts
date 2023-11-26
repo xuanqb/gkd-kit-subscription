@@ -115,6 +115,34 @@ export default defineAppConfig(
           '[text="兼职"]'
         ],
       },
+      {
+        key: 10,
+        name: '跳过安卓工程师',
+        activityIds: [
+          'com.hpbr.bosszhipin.module.position.BossJobPagerActivity',
+          'com.hpbr.bosszhipin.module.map.activity.GeekRoute1004NewActivity',
+          'com.monch.lbase.dialog.ProgressDialog',
+          'com.hpbr.bosszhipin.module.main.activity.MainActivity'
+        ],
+        actionDelay: 600,
+        rules: [
+          '[text="“Android工程师”职位"]'
+        ],
+      },
+      {
+        key: 11,
+        name: '跳过数据开发岗位',
+        activityIds: [
+          'com.hpbr.bosszhipin.module.position.BossJobPagerActivity',
+          'com.hpbr.bosszhipin.module.map.activity.GeekRoute1004NewActivity',
+          'com.monch.lbase.dialog.ProgressDialog',
+          'com.hpbr.bosszhipin.module.main.activity.MainActivity'
+        ],
+        actionDelay: 600,
+        rules: [
+          '[text="“数据开发”职位"]'
+        ],
+      },
     ],
   }
 );
